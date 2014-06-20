@@ -36,7 +36,7 @@ to log function calls
 		test3(3333,u'测试3',[u'测试3',1],{'test1':['test1']},inStr2=u"呵呵")
 		test4(3333,u'测试3',[u'测试3',1],{'test1':['test1']},inStr2=u"呵呵")
 		==========================================================================================
-		the functions are called in turn of
+		the functions are called in turns of
 
 		test1           \#logit
 			 test2      \#logit
@@ -58,8 +58,8 @@ to log function calls
 			  13:15:11  test2(2222, "测试2", ['test1', 1], {'test1': ['test1']},  inList2 = [1, 2, '123', [3, 2, 1], {1: 1}])
 		  13:15:11  test1(1111, "test1", ['test1', 1], {'test1': ['test1']},  inDict2 = {1: [1, 2, 3, [2, 3]]}, inList2 = [1, 2, 3, 4, 3, 22, 2, 3, 4, 6, 54, 5, 6, 43......)
 
-		the indent stand for the depth of the run stack
-		logs are in the reverse turn of the run stack
+		the indent stand for the depth of the running stack
+		logs are in the reverse turn of the running stack
 		test4 is missing because we do log it
-		but the run stack indent is still there
+		but the runninu stack indent is still there
 
